@@ -8,8 +8,8 @@ const dbConfig = {
   server: '192.168.1.24',
   database: 'Fleet_Monkey',
   options: {
-    encrypt: 'development',
-    trustServerCertificate: 'development',
+    encrypt: true,
+    trustServerCertificate: false,
     enableArithAbort: true,
     connectTimeout: 15000,
   },
