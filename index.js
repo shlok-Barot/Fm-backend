@@ -8,7 +8,7 @@ const customerRoutes = require('./routes/customerRoutes');
 const companyRoutes = require('./routes/companyRoutes');
 const supplierRoutes = require('./routes/supplierRoutes');
 const serviceTypeRoutes = require('./routes/serviceTypeRoutes');
-const salesRFQParcelRoutes = require('./routes/salesRFQParcelRoutes');
+// const salesRFQParcelRoutes = require('./routes/salesRFQParcelRoutes');
 const addressRoutes = require('./routes/addressRoutes');
 const mailingPriorityRoutes = require('./routes/mailingPriorityRoutes');
 const currencyRoutes = require('./routes/currencyRoutes');
@@ -67,7 +67,7 @@ async function startServer() {
       ['/api/companies', companyRoutes],
       ['/api/suppliers', supplierRoutes],
       ['/api/service-types', serviceTypeRoutes],
-      ['/api/sales-rfq-parcels', salesRFQParcelRoutes],
+      // ['/api/sales-rfq-parcels', salesRFQParcelRoutes],
       ['/api/addresses', addressRoutes],
       ['/api/mailing-priorities', mailingPriorityRoutes],
       ['/api/currencies', currencyRoutes],
