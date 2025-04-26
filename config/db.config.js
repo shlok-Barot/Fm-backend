@@ -3,9 +3,9 @@ require('dotenv').config();
 const sql = require('mssql');
 
 const dbConfig = {
-  user: 'sa',
-  password:  'sa123',
-  server: '192.168.1.24',
+  user: 'admin',
+  password:  'Fleet_Monkey2025',
+  server: 'fleetmonkey.c56goc4mudl6.eu-north-1.rds.amazonaws.com',
   database: 'Fleet_Monkey',
   options: {
     encrypt: true,
