@@ -1,4 +1,4 @@
-const SalesRFQParcelModel = require('../models/salesRFQParcelModel');
+const SalesRFQParcelModel = require('../models/salesRFQparcelModel');
 
 class SalesRFQParcelController {
   static async getAllSalesRFQParcels(req, res) {
